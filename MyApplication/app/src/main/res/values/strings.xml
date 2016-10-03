@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ViewPagerTest</string>
+    <string name="textContent">创建一个 Fragment 子类，它从 onCreateView() 方法中返回之前创建的布局。
+        无论何时如果我们需要为用户展示一个新的页面，可以在它的父Activity中创建该Fragment的实例：</string>
 </resources>
