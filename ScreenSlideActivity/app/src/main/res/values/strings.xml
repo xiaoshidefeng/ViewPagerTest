@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ScreenSlideActivity</string>
+    <string name="lorem_ipsum">要展示不同于默认滑屏效果的动画，
+        我们需要实现ViewPager.PageTransformer接口，然后把它补充到ViewPager里就行了。
+        这个接口只暴露了一个方法，transformPage()。每次界面切换，这个方法都会为每个可见页面
+        （通常只有一个页面可见）和刚消失的相邻页面调用一次。例如，
+        第三页可见而且用户向第四页拖动，transformPage()在操作的各个阶段为第二，三，四页分别调用。</string>
+    <string name="title_template_step">qqqqqqqq</string>
+</resources>
